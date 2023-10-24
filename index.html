@@ -8,35 +8,35 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0 section-title">Nome do restaurante</h1>
+            <h1 class="navbar-brand m-0 section-title">Viveiro da Jô</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#sobre-o-restaurante" class="nav-link">
+                        <a href="#sobre-o-viveiro" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
-                            Sobre o restaurante
+                            Sobre o Viveiro
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#eventos" class="nav-link">
-                            <i class="bi bi-calendar-check me-1"></i>
-                            Eventos
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-flower1 me-1"></i>
+                            Serviços
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="#cardapio" class="nav-link">
-                            <i class="bi bi-card-text me-1"></i>
-                            Nosso cardápio
+                        <a href="#catalogo" class="nav-link">
+                            <i class="bi bi-book me-1"></i>
+                            Catálogo
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
@@ -50,17 +50,17 @@
         </div>
     </header>
     <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
-        <section id="sobre-o-restaurante">
+        <section id="sobre-o-viveiro">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="images/slides/slide1.png" alt="Foto do espaço interno do restaurante">
+                        <img src="./images/slides/plant1.jpg" alt="Foto do espaço interno do restaurante">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="images/slides/slide2.png" alt="Duas taças de vinho">
+                        <img src="./images/slides/plant2.jpg" alt="Duas taças de vinho">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="images/slides/slide3.png" alt="Uma mesa com comida">
+                        <img src="./images/slides/plant3.jpg" alt="Uma mesa com comida">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -75,39 +75,254 @@
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                 </div>
             </div>
-            <div class="pt-5 pb-5">
+            <div class="pt-5 pb-3">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-5">
-                            <img src="images/restaurante.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        <div class="col-md-6">
+                            <img src="images/house-2606818_1920.jpg" class="d-flex rounded" alt="Foto do espaço interno do restaurante" width="600">
                         </div>
-                        <div class="col-md-7 mt-3 mt-md-0">
-                            <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
+                        <div class="col-md-6 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre o espaço</h2>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, id dolorum harum quo consequatur perferendis natus repudiandae optio ipsa voluptates enim ipsam corrupti labore iusto explicabo? Voluptas recusandae quas cumque.
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, id dolorum harum quo consequatur perferendis natus repudiandae optio ipsa voluptates enim ipsam corrupti labore iusto explicabo? Voluptas recusandae quas cumque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae cupiditate consequatur quibusdam deserunt. Dolorem placeat sequi alias, dicta adipisci nesciunt commodi culpa, obcaecati asperiores tempora laborum mollitia id fugiat illo!
                             </p>
-                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <h2 class="section-title">Sobre nós</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium officiis numquam quos iure velit natus alias ut reprehenderit dolor! Eius autem molestias fugit quisquam ducimus explicabo aliquid provident asperiores?
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, id dolorum harum quo consequatur perferendis natus repudiandae optio ipsa voluptates enim ipsam corrupti labore iusto explicabo? Voluptas recusandae quas cumque. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             </p>
-                            <ul>
-                                <li>Item 1</li>
-                                <li>Item 2</li>
-                                <li>Item 3</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="eventos" class="pt-5 pb-5">
+        <section id="servicos" class="pt-4 pb-1">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title text-center">Para todas <span class="text-colored">as ocasiões</span></h2>
+                    <h2 class="section-title text-center mb-3">Serviços</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/servicos/investment-5241253_1920.jpg" alt="" class="d-block w-100 h-50 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Poda e manutenção
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/servicos/sesame-1627009_1920.jpg" alt="" class="d-block w-100 h-50 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Transplante de árvores
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/servicos/tree-99852_1920.jpg" alt="" class="d-block w-100 h-50 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            Eventos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae esse officiis explicabo quae ipsam mollitia tenetur itaque, consequuntur quisquam necessitatibus nisi expedita eius architecto dolorem repellendus veniam iste debitis aliquid?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalogo" class="pb-2">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Catálogo</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <aside>
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#flores" class="fw-bold text-start nav-link text-colored active">Flores</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#folhas" class="fw-bold text-start nav-link text-colored">Folhas</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#suculentas" class="fw-bold text-start nav-link text-colored">Suculentas</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="flores">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/flowers-174817_1920.jpg" alt="Flor rosa">
+                                        <h5 class="text-colored fw-bold mt-2">Flor rosa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/gorgeous-dahlia-8172523_1920.jpg" alt="Dália">
+                                        <h5 class="text-colored fw-bold mt-2">Dália</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/lavenders-1537694_1920.jpg" alt="Lavanda">
+                                        <h5 class="text-colored fw-bold mt-2">Lavanda</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/marguerite-729510_1920.jpg" alt="Margarida">
+                                        <h5 class="text-colored fw-bold mt-2">Margarida</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/sunflower-1127174_1920.jpg" alt="Girassol">
+                                        <h5 class="text-colored fw-bold mt-2">Girassol</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/tulips-320151_1920.jpg" alt="Tulipa">
+                                        <h5 class="text-colored fw-bold mt-2">Tulipa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="folhas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/fern-821293_1920.jpg" alt="Folhosa">
+                                        <h5 class="text-colored fw-bold mt-2">Folhosa</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/leaves-1835780_1920.jpg" alt="Folhas">
+                                        <h5 class="text-colored fw-bold mt-2">Folhas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/leaves-318743_1920.jpg" alt="Folhudas">
+                                        <h5 class="text-colored fw-bold mt-2">Folhudas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="suculentas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/succulent-7856949_1920.jpg" alt="Suculentae">
+                                        <h5 class="text-colored fw-bold mt-2">Suculentae</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/botany-4589714_1920.jpg" alt="Suculents">
+                                        <h5 class="text-colored fw-bold mt-2">Suculents</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/cacti-1846147_1920.jpg" alt="Suculante">
+                                        <h5 class="text-colored fw-bold mt-2">Suculante</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/catalogo/pots-716579_1920.jpg" alt="Sucuentro">
+                                        <h5 class="text-colored fw-bold mt-2">Sucuentro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section id="fale-conosco" class="pt-4 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Fale conosco</h2>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                    <input type="text" id="nome" class="form-control w-100" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                    <input type="email" id="email" class="form-control w-100" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                    <input type="tel" id="telefone" class="form-control w-100">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                    <textarea class="form-control w-100" id="mensagem" required></textarea>
+                                </div>
+                                <button type="submit" class="btn fw-bold">Enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    Redes sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua Teste Exemplo nº 145, Bairro Bootstrap - São Paulo - SP
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

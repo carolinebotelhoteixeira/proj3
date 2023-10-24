@@ -1,17 +1,20 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #1e8717;
 }
 
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color: #e15f41;
+    color: #1e8717;
 }
 
-.nav .nav-link, .navbar-brand, .navbar-brand:hover {
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
     color: #fff;
 }
 
@@ -20,13 +23,53 @@ body {
 }
 
 .section-title {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 2rem;
 }
 
-.section-title span {
-    color: #e15f41;
+.carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
 }
 
-#sobre-o-restaurante {
+#sobre-o-restaurante, #cardapio {
     background-color: #ffeae6;
+}
+
+.text-colored {
+    color: #1e8717;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #1e8717;
+    color: #fff;
+}
+
+.tab-pane img {
+    height: 150px;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #1e8717;
+}
+
+.faleconosco {
+    margin-left: 250px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
 }

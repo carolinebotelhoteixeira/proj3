@@ -33,10 +33,6 @@ body {
     object-fit: fill;
 }
 
-#sobre-o-restaurante, #cardapio {
-    background-color: #ffeae6;
-}
-
 .text-colored {
     color: #1e8717;
 }
@@ -70,6 +66,54 @@ body {
 
 @media (max-width: 767px) {
     .carousel-item img {
-        height: 280px;
+        height: 5em;
+    }
+
+
+    #fotoprinc{
+        max-width: 100%;
+    }
+
+    .tab-content {
+        max-width: 90%;
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    .tab-content img {
+        max-width: 80%;
+    }
+
+    .tab-content p {
+        max-width: 90%;
+    }
+
+    form {
+        margin-bottom: 5%;
+    }
+
+    #foot {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-device-width: 768px) and (max-device-width: 1024px) {
+    .carousel-item img {
+        height: 15em;
+    }
+
+    #fotoprinc {
+        width: 40em;
+        margin-left: 8%;
+        margin-bottom: 8%;
+    }
+
+    #sobres {
+        width: max-content;
+        margin-bottom: 0;
+    }
+
+    #servicos {
+        margin-bottom: 15%;
     }
 }
